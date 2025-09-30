@@ -1,0 +1,21 @@
+## Kapan Kita Pakai Perulangan (Looping)?
+Kita pakai ini saat ingin memproses data yang jumlahnya banyak secara otomatis.
+
+Menampilkan Daftar Produk di Toko Online: Saat kamu buka aplikasi Shopee atau Tokopedia, aplikasi tidak ditulis untuk menampilkan "produk 1, produk 2, produk 3..." satu per satu. Programmer hanya membuat satu template "kartu produk", lalu menyuruh sistem: "Untuk setiap produk yang ada di database, tampilkan menggunakan template ini." Loop akan berjalan sebanyak jumlah produk.
+
+Menampilkan Feed Media Sosial: Saat kamu scroll Instagram, aplikasi melakukan perulangan: "Selama pengguna masih scroll ke bawah, ambil dan tampilkan 10 postingan berikutnya."
+
+Menghitung Total Belanjaan: Saat kamu checkout, sistem melakukan perulangan pada keranjang belanjamu: "Untuk setiap barang di keranjang, ambil harganya lalu tambahkan ke total."
+
+## Kapan Kita Pakai Kontrol (Percabangan)?
+Kita pakai ini saat sistem perlu membuat keputusan dan memberikan respon yang berbeda-beda.
+
+Sistem Login: "Jika username dan password benar, tampilkan halaman beranda. Kalau tidak, tampilkan pesan 'Password salah'."
+
+Menentukan Status Pengiriman: "Jika statusnya 'Dikirim', tampilkan 'Pesanan sedang dalam perjalanan'. Jika tidak, jika (else if) statusnya 'Tiba', tampilkan 'Pesanan telah sampai'. Kalau tidak (else), tampilkan 'Pesanan sedang diproses'."
+
+Memberikan Diskon: "Jika total belanjaan di atas Rp 500.000, berikan diskon 10%. Kalau tidak, jangan berikan diskon."
+
+Mengatur Hak Akses Pengguna: Menggunakan switch untuk peran pengguna. Pada kasus perannya 'Admin', tampilkan semua menu. Pada kasus perannya 'Penulis', hanya tampilkan menu tulis artikel. Pada kasus perannya 'Pengunjung', hanya tampilkan halaman depan.
+
+Intinya, dua konsep ini adalah pondasi dari hampir semua program yang ada. Mereka memberikan "otak" pada program agar bisa melakukan tugas berulang dan membuat keputusan secara otomatis.
