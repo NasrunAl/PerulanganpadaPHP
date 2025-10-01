@@ -1,0 +1,13 @@
+<?php
+
+$infoTanggal = getdate();
+
+$tanggal = $infoTanggal['mday']; 
+$bulan = $infoTanggal['mon'];  
+$tahun = $infoTanggal['year']; 
+
+$tanggalLengkap = "$tanggal-$bulan-$tahun";
+
+echo "Tanggal hari ini (versi getdate): <b>$tanggalLengkap</b>";
+
+?>
